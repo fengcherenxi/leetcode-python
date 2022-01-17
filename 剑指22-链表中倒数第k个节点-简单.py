@@ -3,7 +3,7 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
-
+# 快慢指针思想
 class Solution:
     def getKthFromEnd(self, head: ListNode, k: int) -> ListNode:
         fast,slow = head,head
